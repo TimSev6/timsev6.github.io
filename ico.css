@@ -1,0 +1,50 @@
+/*!
+ * Socializer - CSS library for social media buttons
+ * Copyright (c) 2021 Aakash Chakravarthy - www.aakashweb.com
+ * MIT license
+ */
+
+
+
+.socializer{padding:0;margin:0;display:inline-block}
+.socializer>*{float:left;list-style:none;padding:0;margin:0;display:inline-block;position:relative}
+.socializer a{font-family:sans-serif!important;display:inline-block;border:0;text-align:center;text-decoration:none;width:16px;height:16px;line-height:18px;font-size:8px;border-style:solid;box-sizing:content-box;transition:all .5s;-webkit-transition:all .2s;transition-timing-function:ease-out;-webkit-transition-timing-function:ease-out}
+.socializer a>*{display:inline-block;vertical-align:middle;padding:0;margin:0}
+.socializer:after{content:'';clear:both;display:block}
+
+.sr-48px{min-height:48px}
+.sr-48px a{width:48px;height:48px;line-height:48px;font-size:24px}
+.sr-48px.sr-font-sm a{font-size:16px}
+.sr-48px.sr-font-lg a{font-size:32px}.sr-64px{min-height:64px}
+
+
+.socializer .sr-addtofavorites a,.socializer
+.sr-addtofavorites a:visited{color:#f9a600;border-color:#f9a600;background-color:#f9a600}
+
+
+
+
+.sr-text-hover:hover>.text{display:block}.sr-bdr-sm.socializer a{border-width:1px}.
+sr-bdr-md.socializer a{border-width:2px}.sr-bdr-lg.socializer a{border-width:3px}.sr-bdr-none.socializer a{border-width:0}
+
+
+
+
+
+
+
+
+.sr-bg-dark.socializer a,.sr-bg-dark.socializer a:visited{background-color:#444}
+
+
+
+.sr-icon-white.socializer a,.sr-icon-white.socializer a:visited{color:#0cf}
+
+
+.sr-squircle .sr-text-in a,.sr-squircle a,.sr-squircle.sr-text-in a{border-radius:.5em}
+
+
+.sr-float a:hover{-webkit-transform:translateY(-5px);transform:translateY(-5px)}
+.sr-float a:active{-webkit-transform:translateY(0);transform:translateY(0)}
+
+.sr-pad>*{margin-right:.5em}
