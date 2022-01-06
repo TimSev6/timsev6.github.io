@@ -93,14 +93,14 @@ color:#0cf;
 code{
   font-size:1.2em;
 }
-.code{
+#code{
   background-color:#333;
   border-radius: 7px;
   text-align:left;
   padding: 6px 9px;
   word-wrap: break-word;
   margin: auto;
-  border-left: 8px solid #999;
+  border-left: 6px solid #999;
   color:#999;
 }
 
@@ -158,18 +158,6 @@ border: 1px solid #00ccff;
   float: left;
 }
 
-#counter_text{
-  padding: 8px 1px;
-  font-size: 1.1em;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #999;
-  background-color: #222222E6;
-  width: 75%;
-  max-width: 350px;
-  border-radius: 11px;
-}
 #counter{
     filter: blur(99px);
     transition: 400ms
