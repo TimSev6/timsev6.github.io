@@ -46,6 +46,6 @@
 '<span class="sr-youtube"><a href="https://www.youtube.com/timsev?sub_confirmation=1" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></span>'+
 '<span class="sr-twitch"><a href="https://www.twitch.tv/timsev66" target="_blank" title="Twitch"><i class="fab fa-twitch"></i></a></span>'+
 '<span class="sr-github"><a href="https://github.com/TimSev6" target="_blank" title="Github"><i class="fab fa-github"></i></a></span></div>'+
-'<br><center><p>&copy;TimSev 2021</center>'+
+'<br><center><p>&copy;TimSev 2020 - 2022</center>'+
 '<div class=br1>'
 ;
