@@ -9,7 +9,7 @@
   '  </a>'+
  '   <div class="dropdown-content">'+
  '     <a href="script">Script</a>'+
- '     <a href="index">Jeux</a>'+
+ '     <a href="jeux">Jeux</a>'+
  '     <a href="index">Outil en ligne</a>'+
 '    </div></li>'+
 '</ul>'+
@@ -26,7 +26,7 @@
 '<a href="index">Acceuil</a>'+
 '<br><a href="script">Script</a>'+
 '<br>'+
-'<a href="index">Jeux</a>'+
+'<a href="jeux">Jeux</a>'+
 '<br>'+
 
 '</td>'+
