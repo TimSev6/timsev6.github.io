@@ -1,19 +1,20 @@
  document.getElementById("nav").innerHTML =
-'<div class="navbar">'+
-'<ul>'+
- '<li><a href="index"> TimSev</a></li>'+
-  '<li><a href="telechargement">T&eacute;l&eacute;chargement</a></li>'+
-  '<div class="dropdown">'+
-  '  <li style="float: left"><a class="dropbtn">Autre    '+
-   '   <i class="fa fa-caret-down"></i>'+
-  '  </a>'+
- '   <div class="dropdown-content">'+
- '     <a href="script">Script</a>'+
- '     <a href="jeux">Jeux</a>'+
- '     <a href="index">Outil en ligne</a>'+
-'    </div></li>'+
-'</ul>'+
-'</div>'
+'<div class="nav">'+
+'<input type="checkbox" id="nav-check">'+
+'<div class="nav-header">'+
+'<div class="nav-title">'+
+'<a href="index" target="_blank">TimSev</a>'+
+'</div></div>'+
+'<div class="nav-btn">'+
+'<label for="nav-check">'+
+'<span></span><span></span><span></span>'+
+'</label></div>'+
+'<div class="nav-links">'+
+'<a href="telechargement" target="_blank">T&eacute;l&eacute;chargement</a>'+
+'<a href="script target="_blank">Script</a>'+
+'<a href="jeux" target="_blank">Jeux</a>'+
+'<a href="index" target="_blank">Outil en ligne</a>'+
+'</div></div>'
 ;
 
  document.getElementById("fin").innerHTML =
