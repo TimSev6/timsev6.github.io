@@ -103,7 +103,7 @@ border: 1px solid #00ccff;
 
 
 .nav {
-  height: 45px;
+  height: 40px;
   width: 100%;
   background-color: #222222E6;
   position: fixed;
@@ -115,13 +115,20 @@ border: 1px solid #00ccff;
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
-  font-size: 1em;
   padding: 10px 10px;
+  text-decoration: none;
+  color: #999;
+  float: left;
+  font-size:.8999em;  transition: 0.2s
 }
+
 
 .nav > .nav-header > .nav-title > a {
   color: #999;
-  text-decoration: none;
+  text-decoration: none;  transition: 0.2s
+}
+.nav > .nav-header > .nav-title > a:hover {
+color:#0cf;
 }
 
 .nav > .nav-btn {
@@ -129,14 +136,12 @@ border: 1px solid #00ccff;
 }
 
 .nav > .nav-links {
-
-  float: right;
-  font-size: 18px;
+  float: left;
 }
 
 .nav > .nav-links > a {
   display: inline-block;
-  padding: 10px 10px;
+  padding: 10px 12px;
   text-decoration: none;
   color: #999;
   font-size:.8999em;
@@ -160,15 +165,15 @@ color:#0cf;
   }
   .nav > .nav-btn > label {
     display: inline-block;
-    width: 50px;
-    height: 50px;
-    padding: 13px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
   }
 
   .nav > .nav-btn > label > span {
     display: block;
     width: 25px;
-    height: 8px;
+    height: 7px;
     border-top: 2px solid #999;
   }
   .nav > .nav-links {
@@ -186,7 +191,8 @@ color:#0cf;
   }
 
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 25px);
     overflow-y: auto;
   }
+
 }
