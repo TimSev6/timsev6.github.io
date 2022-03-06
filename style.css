@@ -1,19 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
-  font-family: Arial;
+font-family: 'Roboto', sans-serif;
   background-color:#eee;
-  font-size:1em;
+  font-size:1.04em;
     padding: 0;
     margin: 0;
-
 }
 
 
 a{
   color:#00ccff;
-  text-decoration: underline;
-}
- a:hover {
-  text-decoration: none;
+
 }
 
 
@@ -24,15 +21,16 @@ a{
   text-decoration: none;
   font-size: 17px;
   display: block;
-  background: #00a2ff;
+  background: #0cf;
   width:250px;
-  border-radius: 6px;
-  border-color:#000;
-  box-shadow: 0px 0px 10px #000;
+  border: 2px solid #000;
+  border-radius: 23px;
+  text-align: center;
+  transition: .3s
 }
 
 .btn:hover{
-  background: #0cf;
+    box-shadow: 0px 0px 8px #333;
 }
 
 
@@ -45,6 +43,7 @@ a{
   background: #444;
   width:100%;
   text-decoration: none;
+  transition: 0.2s
 }
 .btn2:hover{
   background: #333;
@@ -122,6 +121,7 @@ padding 0px 22px;
 
 .fin{
   background-color:#333;
+
 }
 
 body, html{height:100%;}
