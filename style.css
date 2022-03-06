@@ -178,12 +178,12 @@ color:#0cf;
   }
   .nav > .nav-links {
     position: absolute;
-    width: 70%;
+    width: 60%;
     background-color: #222222E6;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 45px;
+    top: 40x;
     right: 0px;
   }
   .nav > .nav-links > a {
