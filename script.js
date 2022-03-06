@@ -3,17 +3,17 @@
 '<input type="checkbox" id="nav-check">'+
 '<div class="nav-header">'+
 '<div class="nav-title">'+
-'<a href="index" target="_blank">TimSev</a>'+
+'<a href="index" >TimSev</a>'+
 '</div></div>'+
 '<div class="nav-btn">'+
 '<label for="nav-check">'+
 '<span></span><span></span><span></span>'+
 '</label></div>'+
 '<div class="nav-links">'+
-'<a href="telechargement" target="_blank">T&eacute;l&eacute;chargement</a>'+
-'<a href="script target="_blank">Script</a>'+
-'<a href="jeux" target="_blank">Jeux</a>'+
-'<a href="index" target="_blank">Outil en ligne</a>'+
+'<a href="telechargement">T&eacute;l&eacute;chargement</a>'+
+'<a href="script">Script</a>'+
+'<a href="jeux" >Jeux</a>'+
+'<a href="index">Outil en ligne</a>'+
 '</div></div>'
 ;
 
