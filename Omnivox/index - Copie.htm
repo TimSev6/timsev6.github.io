@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="ico.ico">
+    <title>Carte Étudiante</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+        }
+
+        .carte {
+    height: 320px;
+    width: 570px;
+    background: linear-gradient(45deg, #d3ffb3 25%, #b8e994 25%, #b8e994 50%, #d3ffb3 50%, #d3ffb3 75%, #b8e994 75%, #b8e994 100%);
+    background-size: 25px 25px;
+    animation: animateBG 10s linear infinite;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(0deg); 
+    position: relative; /* Position relative pour placer l'heure en bas */
+}
+
+
+
+
+        @keyframes animateBG {
+            0% { background-position: 0 100px; }
+            100% { background-position: 100px 0; }
+        }
+
+        .header {
+            background-color: #ff7900;
+            padding: 10px;
+            font-size: 18px;
+            color: white;
+            font-weight: bold;
+            writing-mode: vertical-lr;
+            transform: rotate(180deg); /* Texte vertical inversé */
+            text-align: center;
+            height: 100%;
+            width: 50px;
+        }
+
+        .content {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            height: 230px;
+            width: 360px;
+            background-color: white;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #000;
+        }
+        .da{
+            text-align: right;
+        }
+        .left-section {
+            font-size: 14px;
+        }
+
+        .left-section p {
+            margin: 5px 0;
+        }
+
+        .photo-section {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .photo-section img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+
+        .footer {
+    position: ;
+    background-color: rgba(70, 169, 0, 0.679);
+    color: white;
+    padding: 10px;
+    width: 100%; 
+    height: 60px; 
+    border-top: 1px solid #000;
+    font-size: 12px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.time {
+    font-size: 16px;
+    font-weight: bold;
+
+}
+th
+{
+font-weight: normal;
+text-align: left;
+padding-right: 20px;
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="header">Carte étudiante</div>
+    <div class="carte">
+      
+        <div class="content">
+            <div class="left-section">
+
+                <img src="https://www.cegepvicto.ca/wp-content/themes/cegepdevictoriaville/images/cegep_victoriaville_logo.png" alt="Photo Étudiant" height="80px">
+                <p><b>SÉVIGNY<br>TIMOTHÉ</b></p>
+                <table>
+                    <tr>
+                      <th>Code permanent:<b> <br>SEVT76060702</b></th>
+                      <th>Date naiss.:<b> <br>2006-6-14</b></th>
+
+                    </tr>
+                  </table>
+                <p class="da">No DA: <br> <b>2443745</b></p>
+
+
+            </div>
+            <div class="photo-section">
+                <img src="carte.png" alt="Photo Étudiant">
+            </div>
+        </div>
+        <div class="footer">
+            <span>Carte valide en date du</span><br>
+            <span class="time" id="time">15 septembre a 11:11:11</span>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
